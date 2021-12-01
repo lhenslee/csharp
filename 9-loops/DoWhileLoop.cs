@@ -6,10 +6,10 @@ namespace DoWhileLoop {
       string input;
       do
       {
-        print("What do you want?");
+        Console.WriteLine("What do you want?");
         input = Console.ReadLine();
       } while (input != "leave");
-      Console.WriteLine("OK... Bye")
+      Console.WriteLine("OK... Bye");
     }
   }
 }
